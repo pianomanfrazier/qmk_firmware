@@ -1,0 +1,31 @@
+{
+    "keyboard_name": "footswitch",
+    "manufacturer": "Ryan Frazier",
+    "maintainer": "pianomanfrazier",
+    "usb": {
+        "vid": "0x1209",
+        "pid": "0x2302",
+        "device_version": "1.0.0"
+    },
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "features": {
+        "bootmagic": false,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": false
+    },
+    "matrix_pins": {
+        "direct": [["F4", "F5"]]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 }
+            ]
+        }
+    }
+}

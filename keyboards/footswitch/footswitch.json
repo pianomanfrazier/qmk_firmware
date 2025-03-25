@@ -1,0 +1,20 @@
+{
+    "name": "footswitch",
+    "vendorId": "0x1209",
+    "productId": "0x2302",
+    "lighting": "none",
+    "matrix": {
+      "rows": 1,
+      "cols": 2
+    },
+    "layouts": {
+      "keymap": [
+        {
+          "layout": [
+            { "matrix": [0, 0], "x": 0, "y": 0 },
+            { "matrix": [0, 1], "x": 1, "y": 0 }
+          ]
+        }
+      ]
+    }
+  }

@@ -5,3 +5,4 @@ BOOTMAGIC_ENABLE = yes    # Enable Bootmagic for easier resetting
 # DYNAMIC_KEYMAP_ENABLE = yes # Enable on-the-fly key assignment
 # NKRO_ENABLE = yes         # Enable full NKRO (though not really needed for 2 keys)
 # VIA_ENABLE = yes
+# LTO_ENABLE = yes

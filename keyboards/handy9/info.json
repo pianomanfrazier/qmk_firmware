@@ -1,0 +1,42 @@
+{
+    "keyboard_name": "handy9",
+    "manufacturer": "TheBlueGarlic",
+    "maintainer": "pianomanfrazier",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0003",
+        "vid": "0x5247"
+    },
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "features": {
+        "bootmagic": false,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": false
+    },
+    "matrix_pins": {
+        "direct": [
+            ["D4", "B4", "B5"],
+            ["E6", "C6", "D7"],
+            ["B6", "D1", "D0"]
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "K00", "matrix": [0, 0], "x": 0, "y": 0 },
+                { "label": "K01", "matrix": [0, 1], "x": 1, "y": 0 },
+                { "label": "K02", "matrix": [0, 2], "x": 2, "y": 0 },
+                { "label": "K10", "matrix": [1, 0], "x": 0, "y": 1 },
+                { "label": "K11", "matrix": [1, 1], "x": 1, "y": 1 },
+                { "label": "K12", "matrix": [1, 2], "x": 2, "y": 1 },
+                { "label": "K20", "matrix": [2, 0], "x": 0, "y": 2 },
+                { "label": "K21", "matrix": [2, 1], "x": 1, "y": 2 },
+                { "label": "K22", "matrix": [2, 2], "x": 2, "y": 2 }
+            ]
+        }
+    }
+}

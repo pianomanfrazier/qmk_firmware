@@ -1,0 +1,36 @@
+{
+    "manufacturer": "TheBlueGarlic",
+    "keyboard_name": "footswitch_triple",
+    "maintainer": "pianomanfrazier",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [["D1", "D0", "D4", "F4", "F5", "F6"]]
+    },
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0004",
+        "vid": "0x5246"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "K00", "matrix": [0, 0], "x": 0, "y": 0 },
+                { "label": "K01", "matrix": [0, 1], "x": 1, "y": 0 },
+                { "label": "K02", "matrix": [0, 2], "x": 2, "y": 0 },
+                { "label": "K03", "matrix": [0, 3], "x": 3, "y": 0 },
+                { "label": "K04", "matrix": [0, 4], "x": 4, "y": 0 },
+                { "label": "K05", "matrix": [0, 5], "x": 5, "y": 0 }
+            ]
+        }
+    }
+}
